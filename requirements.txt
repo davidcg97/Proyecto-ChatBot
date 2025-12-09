@@ -1,0 +1,35 @@
+# --- CORE LANGCHAIN ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# --- GROQ (Gemma 2) ---
+langchain-groq>=0.2.0
+
+# --- LANGGRAPH (ACTUALIZADO) ---
+langgraph>=0.2.0
+
+# --- VECTOR STORES ---
+chromadb>=0.4.22
+
+# --- EMBEDDINGS LOCALES (HuggingFace) ---
+sentence-transformers>=2.2.2
+
+# --- LOADERS / PDF SUPPORT ---
+pypdf>=3.9.0
+unstructured>=0.12.6
+
+# --- FRONTEND ---
+gradio>=4.0.0
+
+# --- TOOLS / UTILS ---
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.5.0
+
+# --- LANGSMITH (OPCIONAL - Para monitoring) ---
+langfuse
+
+# --- MYSQL CONNECTOR (para FreeScout) ---
+mysql-connector-python>=8.0.33

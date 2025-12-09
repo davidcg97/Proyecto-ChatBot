@@ -1,0 +1,11 @@
+Admin mail freescout -> admin@example.com
+Admin pass freescout -> admin123
+Name mailbox -> Soporte IT
+Email mailbox -> soporte@empresa.local
+
+¿Como lanzar el modelo con gradio?
+
+1. Abrir Docker Desktop y lanzar el contenedor del proyecto (Al lanzar este se lanzan el de freescout y su base de datos)
+2. Lanzar el venv (.\proyecto_chatbot\Scripts\activate)
+3. Ejecutar el main.py dandole al play en el IDE o escribiendo en la terminal de vscode python main.py.
+4. Abrir en el navegador la interfaz de gradio escribiendo en la URL localhost:7860
